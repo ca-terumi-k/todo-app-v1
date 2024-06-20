@@ -1,0 +1,53 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  min-width: 340px;
+}
+
+#root > div {
+  min-width: 340px;
+}
+
+div {
+  margin-bottom: 8px;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+li {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  width: 100%;
+  margin: 4px 0;
+}
+
+li > label {
+  flex: 1;
+  text-align: left;
+  margin-right: 8px;
+}
+
+li > input {
+  flex: 2;
+  margin-right: 8px;
+}
+
+.todo_input_box{
+  display: flex;
+  align-items: center;
+}
+
+.todo_input_box > input {
+
+}
+
+.todo_input_box > button {
+  margin: 0;
+  margin-left: 4px;
+}
+
